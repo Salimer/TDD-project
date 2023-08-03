@@ -27,6 +27,14 @@ describe Solver do
         
             # Act & Assert
         expect { subject.factorial(integer) }.to raise_error('exception error')
+  context '#reverse' do
+    it 'takes a string and return it reversed' do
+      # Arrange
+      string = 'hello'
+      # Act
+      result = subject.reverse(string)
+      # Assert
+      expect(result).to eql 'olleh'
     end
   end
 end
