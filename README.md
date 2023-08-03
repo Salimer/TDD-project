@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [🎯 OOP school library](#-oop-school-library)
+- [🎯 TDD Project](#-tdd-project)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -19,15 +19,16 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 🎯 OOP school library<a name="about-project"></a>
+# 🎯 TDD Project<a name="about-project"></a>
 
-As the librarian of OOP University, I've created a user-friendly app to:
+In this project it will implement a class with some methods, but do it by doing test-driven development (TDD)
 
-- [ ] Add new students or teachers.
-- [ ] Add new books and maintain their records.
-- [ ] Record book borrowing details, including dates.
-- [ ] Easily manage book availability and borrowers.
-- [ ] This organized tool ensures efficient library management for a smooth experience at OOP University.
+- [ ] New class.
+- [ ] Method that takes one argument, an integer and returns the factorial for that number.
+- [ ] Method that takes one argument, a string and returns the reversed.
+- [ ] Method that takes one argument, an integer return a string.
+- [ ] Tests for all of the methods described above have used TDD.
+
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -40,10 +41,9 @@ As the librarian of OOP University, I've created a user-friendly app to:
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-- **Encapsulation**
-- **Abstraction**
-- **Inheritance**
-- **Polymorphism**
+- **Unit tests using Rspec**
+- **Write Rspec unit tests with mocks**
+- **Understand the TDD concept**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -65,13 +65,13 @@ you have to those tools in your local machine.
 Clone the project.
 
 ```bash
-  git clone git@github.com:Salimer/OOP-school-library.git
+  git clone git@github.com:Salimer/TDD-project.git
 ```
 
 Go to the project directory.
 
 ```bash
-  cd OOP-school-library
+  cd TDD-project
 ```
 
 
@@ -106,9 +106,9 @@ No tests here...
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- **#map Method Support**
-- **#reduce Method Support**
-- **#Sorting Functionality**
+- **#test-driven development (TDD)**
+- **# idea is to write test**
+- **#define what the code are going to write does, and then write the code**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
