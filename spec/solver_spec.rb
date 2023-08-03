@@ -21,5 +21,12 @@ describe Solver do
             # Assert 
         expect(actual).to eql factorial
     end
+    it 'raises exception for negative integer' do
+            # Arrange
+        integer = -1
+        
+            # Act & Assert
+        expect { subject.factorial(integer) }.to raise_error('exception error')
+    end
   end
 end
