@@ -13,4 +13,19 @@ class Solver
   def reverse(string)
     string.reverse
   end
+
+  def fizzbuzz(integer)
+    if integer % 3 == 0 && integer % 5 == 0
+        return 'fizzbuzz'
+
+    elsif integer % 3 == 0
+        return 'fizz'
+
+    elsif integer % 5 == 0
+        return 'buzz'
+        
+    else
+        return integer
+    end
+  end
 end
