@@ -40,7 +40,7 @@ describe Solver do
       expect(result).to eql 'olleh'
     end
   end
-  
+
   context '#fizzbuzz' do
     it 'gets 3 and returns fizz' do
       # Arrange
@@ -73,14 +73,14 @@ describe Solver do
       expect(result).to eql 'fizzbuzz'
     end
     it 'gets 7 and returns 7' do
-        # Arrange
-        integer = 7
-  
-        # Act
-        result = subject.fizzbuzz(integer)
-  
-        # Assert
-        expect(result).to eql 7
-      end
+      # Arrange
+      integer = 7
+
+      # Act
+      result = subject.fizzbuzz(integer)
+
+      # Assert
+      expect(result).to eql 7
+    end
   end
 end

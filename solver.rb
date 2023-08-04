@@ -15,17 +15,17 @@ class Solver
   end
 
   def fizzbuzz(integer)
-    if integer % 3 == 0 && integer % 5 == 0
-        return 'fizzbuzz'
+    if (integer % 3).zero? && (integer % 5).zero?
+      'fizzbuzz'
 
-    elsif integer % 3 == 0
-        return 'fizz'
+    elsif (integer % 3).zero?
+      'fizz'
 
-    elsif integer % 5 == 0
-        return 'buzz'
-        
+    elsif (integer % 5).zero?
+      'buzz'
+
     else
-        return integer
+      integer
     end
   end
 end
